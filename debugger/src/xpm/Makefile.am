@@ -1,5 +1,6 @@
 
 EXTRA_DIST = \
+	android.xpm \
 	breakpoint_condition.xpm \
 	breakpoint_disabled.xpm \
 	breakpoint.xpm \

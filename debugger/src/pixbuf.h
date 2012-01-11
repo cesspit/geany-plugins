@@ -28,6 +28,8 @@ extern GdkPixbuf *local_pixbuf;
 extern GdkPixbuf *watch_pixbuf;
 
 extern GdkPixbuf *frame_current_pixbuf;
+
+extern GdkPixbuf *android_pixbuf;
  
 void pixbufs_init();
 void pixbufs_destroy();

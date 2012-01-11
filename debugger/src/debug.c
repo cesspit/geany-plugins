@@ -80,7 +80,7 @@ typedef struct _module_description {
 enum dbs debug_state = DBS_IDLE;
 
 /* debug modules declarations */
-extern dbg_module dbg_module_gdb;
+extern dbg_module dbg_module_gdb, dbg_module_android;
 /* extern dbg_module dbg_module_bash; */
 
 /* active debug module */
@@ -144,6 +144,7 @@ static GList *read_only_pages = NULL;
 static module_description modules[] = 
 {
 	{ "GDB", &dbg_module_gdb },
+	{ "Android", &dbg_module_android },
 	{ NULL, NULL }
 };
 

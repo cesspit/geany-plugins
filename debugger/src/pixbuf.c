@@ -36,6 +36,8 @@
 #include "xpm/frame.xpm"
 #include "xpm/frame_current.xpm"
 
+#include "xpm/android.xpm"
+
 GdkPixbuf *break_pixbuf = NULL;
 GdkPixbuf *break_disabled_pixbuf = NULL;
 GdkPixbuf *break_condition_pixbuf = NULL;
@@ -46,6 +48,8 @@ GdkPixbuf *watch_pixbuf = NULL;
  
 GdkPixbuf *frame_pixbuf = NULL;
 GdkPixbuf *frame_current_pixbuf = NULL;
+
+GdkPixbuf *android_pixbuf = NULL;
 
 /*
  * create pixbuffers
@@ -62,6 +66,8 @@ void pixbufs_init()
 
 	frame_pixbuf = gdk_pixbuf_new_from_xpm_data(frame_xpm);
 	frame_current_pixbuf = gdk_pixbuf_new_from_xpm_data(frame_current_xpm);
+	
+	android_pixbuf = gdk_pixbuf_new_from_xpm_data(android_xpm);
 }
 
 /*
@@ -79,5 +85,7 @@ void pixbufs_destroy()
 
 	g_object_unref(frame_pixbuf);
 	g_object_unref(frame_current_pixbuf);
+	
+	g_object_unref(android_pixbuf);
 }
 
