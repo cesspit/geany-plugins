@@ -16,3 +16,6 @@ FEATURES:
 - attach functionality: dbm_ methods providing target lists, common dialog
 - android support
 - bashdb support
+
+ANDROID:
+- do not upload if apk hasn't been changed from the last upload
