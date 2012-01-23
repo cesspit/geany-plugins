@@ -2,7 +2,6 @@
 # M: Mail patches to: FullName <address@domain>
 # W: Web-page with status/info
 # S: Status, one of the following:
-#    Paid:        Someone is actually paid to look after this.
 #    Maintained:  Someone actually looks after it.
 #    Odd Fixes:   It has a maintainer but they don't have time to do
 #                 much other than throw the odd patch in. See below..
@@ -25,10 +24,10 @@ W:
 S:
 
 debugger
-P:
-M:
-W:
-S:
+P: Alexander Petukhov <devel@apetukhov.ru>
+M: Alexander Petukhov <devel@apetukhov.ru>
+W: http://plugins.geany.org/debugger.html
+S: Maintained
 
 devhelp
 P: Matthew Brush <matt@geany.org>
