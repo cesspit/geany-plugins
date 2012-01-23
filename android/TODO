@@ -1,0 +1,8 @@
+- spy an SDK folder (download new SDK/delete/etc)
+- create project (build commands,filetypes,run "android create project")
+- create project from SDK samples
+- hold SDK version in a project
+- adnroid documentation presentation
+- run AVD toolbar? button
+- device/AVD filesystem operations
+- logcat (with filters)
